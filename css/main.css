@@ -1,0 +1,189 @@
+*{
+    scroll-behavior: smooth;
+}
+:root{
+    --mainColor: #00b3b3;
+    --headerColor: #171717;
+    --bg: #141414;
+    --whiteColor: #fff;
+    --darkColor: #000;
+    --pColor: #666;
+    --hoverColor: #009797;
+}
+.nav{
+    background-color: var(--headerColor) !important;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+    position: fixed;
+    z-index: +9999;
+    padding: 7px 20px;
+}
+.nav .a{
+    color: var(--whiteColor) !important;
+    transition: 0.2s;
+    text-transform: capitalize;
+}
+.nav .a:hover{
+    color: var(--mainColor) !important;
+}
+span{
+    color: var(--mainColor);
+}
+.logo{
+    font-size: 25px !important;
+    text-transform: capitalize;
+}
+.btn{
+    background-color: var(--mainColor) !important;
+    color: var(--whiteColor) !important;
+    transition: 0.3s;
+    border: 2px solid var(--mainColor);
+}
+.btn:hover{
+    background-color: transparent !important;
+    color: var(--whiteColor) !important;
+}
+.btn2{
+    background-color: var(--mainColor) !important;
+    color: var(--whiteColor) !important;
+    transition: 0.3s;
+    border: 2px solid var(--mainColor);
+}
+.btn2:hover{
+    background-color: transparent !important;
+    color: var(--darkColor) !important;
+}
+section{
+    padding: 200px 100px;
+    color: var(--whiteColor) !important;
+    background-color: var(--bg);
+}
+.home{
+    width: 100%;
+    height: 100vh;
+}
+.home-content h2{
+    margin: 10px 0;
+    font-size: 40px;
+}
+.title{
+    color: var(--mainColor);
+    font-weight: bold;
+}
+.p{
+    color: var(--pColor);
+}
+.img{
+    width: 65%;
+}
+.card{
+    color: var(--darkColor);
+    width: 100%;
+    margin-bottom: 20px;
+}
+.projects .card{
+    height: auto;
+}
+.projects .card a{
+    width: 100%;
+}
+.card p{
+    text-transform: capitalize;
+}
+.Card{
+    background-color: var(--whiteColor);
+    color: var(--darkColor);
+    border-radius: 10px;
+    padding: 10px;
+    width: 90%;
+    height: 200px;
+    text-align: center;
+    margin: 20px 0;
+    transition: 0.5s;
+}
+.Card i{
+    font-size: 40px;
+    text-align: center !important;
+    margin: 20px 0;
+    color: var(--mainColor);
+}
+.Card h4{
+    font-weight: bold;
+}
+.Card a{
+    font-size: 20px;
+    color: var(--darkColor);
+    font-weight: 500;
+}
+.Card a:hover{
+    color: var(--hoverColor);
+}
+.Card:hover{
+    transform: scale(1.1);
+}
+footer{
+    background-color: var(--headerColor);
+    color: var(--whiteColor);
+    height: 80px;
+    text-align: center;
+    padding: 10px;
+}
+footer p{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+}
+.about-p{
+    line-height: 30px;
+    text-transform: capitalize;
+}
+#about-div{
+    width: 100% !important;
+}
+.con{
+    width: 80% !important;
+    margin-left: 13% !important;
+}
+.box{
+    width: 68%;
+    margin-left: 15%;
+}
+@media (max-width: 720px) {
+    section {
+        width: 100% !important;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    nav {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .home {
+        padding: 230px 20px;
+    }
+
+    .about {
+        padding: 50px 0;
+    }
+
+    .div-img img {
+        display: inline-block !important;
+        margin-right: 50% !important;
+        width: 300px;
+    }
+
+    .projects h1 {
+        font-size: 30px !important;
+    }
+
+    .projects .card {
+        width: 300px;
+    }
+
+    .gmail {
+        font-size: 15px !important;
+    }
+}
